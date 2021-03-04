@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Counter from "./counter";
 
 interface AppProps {
   guestName?: string;
@@ -19,7 +18,6 @@ const App: React.FunctionComponent<AppProps> = ({
     <div>
       {`Time since start: ${count}`}
       <div>{`Welcome to React App ${guestName} !`}</div>
-      <Counter />
     </div>
   );
 };
